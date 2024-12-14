@@ -31,7 +31,7 @@ public class EmailController {
         //谁要接收
         message.setTo(email);
         //邮件标题
-        message.setSubject("欢迎访问星哥说JAVA");
+        message.setSubject("Letchat验证码");
         //邮件内容
         message.setText("您的验证码是"+yzm);
         javaMailSender.send(message);
